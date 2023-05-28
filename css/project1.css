@@ -1,0 +1,31 @@
+#heading{
+    color: white;
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+    font-variant: small-caps;
+}
+#div1{
+    background-color: rgb(184, 184, 184);
+}
+nav{
+    color: black;
+}
+section{
+    display: block;
+    background-color: grey;
+
+}
+h1{
+    color: rgb(0, 0, 104);
+}
+table {
+    table-layout: fixed;
+    width: 600px;
+
+  }
+
+  td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

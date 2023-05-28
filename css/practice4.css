@@ -1,0 +1,38 @@
+div{
+    display:inline-block; 
+    border: #000000 solid 1px;
+    border-radius: 5%;
+    margin: 30px;
+    padding: 5%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background-size: 200%;
+    transition: .5s ease;
+
+}
+div:hover{
+    padding: 3%;
+    background-color: #784141;
+    transform:scale(1.7);
+    background-position: right;
+    border:#000000 solid 3px;
+    box-shadow: #000000 solid 5%;
+}
+div:focus{
+    background-color: #63008e;
+    padding: 3%;
+    transform:scale(1.7);
+    background-position: right;
+    border:#000000 solid 3px;
+    box-shadow: #000000 solid 5%;
+}
+
+.P:focus, .p:hover{
+    background-color: #ccff00;
+    transform:scale(1.7);
+    transform: rotate(360deg);
+    transform: skew(50deg,70deg);
+    position: top 10;
+
+}

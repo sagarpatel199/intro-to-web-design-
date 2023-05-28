@@ -1,0 +1,72 @@
+
+nav a{
+    text-align: center;
+    display: inline-block;
+    background-color: #1d02b4;
+    color: #FFFFFF;
+    width: 45%;
+    height:100px;
+    margin:30px;
+    border: 50px solid #000000;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+a:link{
+    background-color: #1d02b4;
+}
+a:visited{
+    background-color: #a1009e;
+}
+
+a:hover{
+    background-color: #00a516;
+    padding: 10px;
+    
+}
+a:focus{
+    background-color: #00a516;
+}
+ul{
+
+    list-style: none;
+
+
+
+}
+
+body {
+    color: #666;
+    font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  a {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #0087cc;
+    padding-left: 22px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff7b29;
+  }
+  a[href$=".pdf"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/pdf.png");
+  }
+  a[href$=".doc"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/doc.png");
+  }
+  a[href$=".jpg"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/image.png");
+  }
+  a[href$=".mp3"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/audio.png");
+  }
+  a[href$=".mp4"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/video.png");
+  }
+
+/*
+*{
+    border: 3px solid #000000;
+}
+*/
